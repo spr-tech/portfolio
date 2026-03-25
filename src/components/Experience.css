@@ -1,0 +1,21 @@
+h4 {
+  margin-top: 3rem;
+}
+
+.experience p {
+  font-size: 1.2rem;
+}
+
+i {
+  display: block;
+  color: rgb(150, 148, 148);
+}
+
+ul {
+  padding: 0 2rem;
+  margin: 0.5rem 0 3rem 0;
+}
+
+li {
+  font-weight: 200;
+}

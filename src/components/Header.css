@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-1 {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1;
+}
+
+.header-1 span:nth-of-type(1) {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.header-1 span:nth-of-type(2) {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.header-1 p:nth-of-type(3) {
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #444;
+  margin: 20px 0;
+}
+
+h4 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}

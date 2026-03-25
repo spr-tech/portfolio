@@ -49,7 +49,7 @@ const Info = () => {
               <Mail size={20} color="white" />
               <a href="mailto:opeyemimuizz@gmail.com">opeyemimuizz@gmail.com</a>
             </div>
-            =
+
             <div className="contact-item">
               <MapPin size={20} color="white" />
               <span>Lagos, Nigeria</span>

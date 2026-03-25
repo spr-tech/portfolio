@@ -1,0 +1,15 @@
+.skills h5 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.skills > * span {
+  background-color: #1f2937;
+  margin-right: 1rem;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.other-skill h5 {
+  margin-top: 2rem;
+}

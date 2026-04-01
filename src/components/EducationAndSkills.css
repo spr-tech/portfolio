@@ -14,5 +14,9 @@
   margin-top: 2rem;
 }
 
-@media screen {
+@media (max-width: 768px) {
+  .other-skill span {
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
 }

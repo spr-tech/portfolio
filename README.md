@@ -1,16 +1,47 @@
-# React + Vite
+# 💻 Frontend Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal frontend portfolio built to showcase my projects, skills, and growth as a developer.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://frstportfolio.netlify.app/
 
-## React Compiler
+## 🧠 About the Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I built this portfolio with a focus on simplicity, clean UI, and maintainable code.
 
-## Expanding the ESLint configuration
+I didn’t try to make everything perfect. The goal was to create something real that I can keep improving over time.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+It reflects where I am right now in my journey and gives me a solid foundation to build on.
+
+## ⚙️ Tech Stack
+
+React  
+JavaScript (ES6+)  
+CSS  
+HTML
+
+## 🎯 What I Focused On
+
+Keeping the UI clean and simple  
+Structuring components properly  
+Writing code that’s easy to read and maintain  
+Making the layout responsive across different screen sizes
+
+## 🔄 Ongoing Improvements
+
+This isn’t the final version. I’m still working on it.
+
+I plan to introduce TypeScript, refactor parts of the code for better structure, and continue improving performance and scalability.
+
+## 📚 What I Learned
+
+I’ve gained a better understanding of how to structure React components and why writing clean, reusable code matters.
+
+More importantly, I’ve started focusing less on just “making things work” and more on building things properly.
+
+## 📬 Feedback
+
+I’m open to feedback and suggestions.
+
+#

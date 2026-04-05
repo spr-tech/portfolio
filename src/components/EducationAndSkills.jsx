@@ -75,11 +75,13 @@ const EducationAndSkills = () => {
         <hr />
 
         {skillsData.map((skill, index) => (
-          <div className="other-skill" key={index}>
+          <div className="other-skill-wrapper-outer">
             <h5>{skill.title}</h5>
-            {skill.items.map((item, i) => (
-              <span key={i}>{item}</span>
-            ))}
+            <div className="other-skill" key={index}>
+              {skill.items.map((item, i) => (
+                <span key={i}>{item}</span>
+              ))}
+            </div>
           </div>
         ))}
       </section>
@@ -90,11 +92,13 @@ const EducationAndSkills = () => {
         <hr />
 
         {softSkillsData.map((skill, index) => (
-          <div className="other-skill" key={index}>
+          <div className="other-skill-wrapper-outer" key={index}>
             <h5>{skill.title}</h5>
-            {skill.items.map((item, i) => (
-              <span key={i}>{item}</span>
-            ))}
+            <div className="other-skill">
+              {skill.items.map((item, i) => (
+                <span key={i}>{item}</span>
+              ))}
+            </div>
           </div>
         ))}
       </section>

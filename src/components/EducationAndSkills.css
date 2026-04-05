@@ -5,18 +5,26 @@
 
 .skills > * span {
   background-color: #1f2937;
-  margin-right: 1rem;
   padding: 7px;
   border-radius: 5px;
+}
+.other-skill-wrapper-outer {
+  margin: 1rem 0;
+}
+.other-skill {
+  display: flex;
+  width: 100%;
+  gap: 10px;
 }
 
 .other-skill h5 {
   margin-top: 2rem;
 }
 
-@media (max-width: 768px) {
-  .other-skill span {
-    display: inline-block;
-    margin-bottom: 1rem;
+@media (max-width: 1000px) {
+  .other-skill {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
   }
 }

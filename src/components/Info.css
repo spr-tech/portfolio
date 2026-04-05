@@ -2,7 +2,7 @@
   background-color: #1f2937;
   color: white;
   width: 500px;
-  height: 100vh;
+  min-height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
@@ -77,7 +77,7 @@ a:hover {
 }
 
 /* Tablet and Mobile Styles */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .app-container {
     flex-direction: column;
   }
@@ -85,8 +85,8 @@ a:hover {
   .left-profile {
     position: relative;
     width: 100%;
-    height: auto;
-    padding: 30px 20px;
+    max-height: 70vh;
+    padding: 20px 10px;
     border-right: none;
     border-bottom: 1px solid #333;
   }
@@ -95,9 +95,5 @@ a:hover {
     margin-left: 0;
     padding: 20px;
     width: 100%;
-  }
-
-  .bio {
-    display: none;
   }
 }

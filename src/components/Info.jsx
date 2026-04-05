@@ -34,11 +34,7 @@ const Info = () => {
     <>
       <div className="left-profile">
         <div>
-          <img
-            className="image"
-            src="./img/IMG-20251207-WA0185.jpg"
-            alt="muizze"
-          />
+          <img className="image" src="./img/image_368aca1c.png" alt="muizze" />
         </div>
 
         <div className="contact">

@@ -85,7 +85,7 @@ a:hover {
   .left-profile {
     position: relative;
     width: 100%;
-    max-height: 70vh;
+    height: 50svh;
     padding: 20px 10px;
     border-right: none;
     border-bottom: 1px solid #333;

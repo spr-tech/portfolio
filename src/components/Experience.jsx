@@ -1,4 +1,4 @@
-import "./Experience.css";
+import "./css/Experience.css";
 
 const NetlifyIcon = ({ size = 20, color = "rgb(150, 148, 148)" }) => (
   <svg
@@ -32,19 +32,19 @@ const Experience = () => {
   const workExperience = [
     {
       role: "Frontend Developer Intern",
-      company: "Afrimit Digitech",
-      period: "02/2024–03/2025",
+      company: "RWA Inc | Development & Internship",
+      period: "04/2026–Present",
       responsibilities: [
-        "Built and maintained user-facing websites using HTML, CSS, JavaScript, and ReactJS",
-        "Modified existing software to fix errors, adapt to new hardware, or upgrade interfaces",
-        "Collaborated with developers on design, development, and testing of programs",
-        "Created reusable UI components for better user experience",
+        "Undergoing onboarding and learning company development workflow",
+        "Collaborating with the team to understand frontend architecture and best practices",
+        "Preparing to contribute to responsive UI development using React",
+        "Participating in training sessions and development discussions",
       ],
     },
     {
       role: "Frontend Developer Intern",
       company: "STX Technologies",
-      period: "06/2025–present",
+      period: "05/2025–11/2025",
       responsibilities: [
         "Developed reusable components for future projects",
         "Built and maintained dynamic frontend experiences using HTML, CSS, JavaScript, and React",

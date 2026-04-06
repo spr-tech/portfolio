@@ -1,4 +1,4 @@
-import "./EducationAndSkills.css";
+import "./css/EducationAndSkills.css";
 
 const EducationAndSkills = () => {
   const skillsData = [
@@ -58,26 +58,15 @@ const EducationAndSkills = () => {
 
   return (
     <div>
-      {/* Education */}
-      <section className="education">
-        <h4>Education</h4>
-        <hr />
-        <p>
-          Bachelor of Science in Education (B.Sc. Ed.) in Business Education
-        </p>
-        <i>Oct 2023</i>
-        <span>University of Ilorin, Kwara State, Nigeria</span>
-      </section>
-
       {/* Technical Skills */}
       <section className="skills">
         <h4>Technical Skills</h4>
         <hr />
 
         {skillsData.map((skill, index) => (
-          <div className="other-skill-wrapper-outer">
+          <div className="other-skill-wrapper-outer" key={index}>
             <h5>{skill.title}</h5>
-            <div className="other-skill" key={index}>
+            <div className="other-skill">
               {skill.items.map((item, i) => (
                 <span key={i}>{item}</span>
               ))}

@@ -1,5 +1,5 @@
 import { Mail, MapPin } from "lucide-react";
-import "./Info.css";
+import "./css/Info.css";
 
 const GitHubIcon = ({ size = 20, color = "white" }) => (
   <svg
